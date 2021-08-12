@@ -1,0 +1,5 @@
+python-telegram-bot==12.1.0
+google-api-python-client
+youtube_transcript_api
+pyyoutube
+urllib3

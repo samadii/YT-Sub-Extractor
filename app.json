@@ -1,0 +1,14 @@
+{
+  "name": "YtSubBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "You bot token",
+      "value": ""
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
