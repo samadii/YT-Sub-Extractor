@@ -4,7 +4,7 @@ import pprint
 import re
 from urllib.parse import urlparse, parse_qs
 import logging
-from pyyoutube import Data
+from py_youtube import Data
 from googleapiclient.http import MediaIoBaseDownload
 import io
 
