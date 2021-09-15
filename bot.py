@@ -8,7 +8,7 @@ import logging
 from telegram import ParseMode
 from functools import partial
 from main import extract_video_id, get_available_lang, fetch_man_chosen, fetch_auto_chosen
-from pyyoutube import Data
+from py_youtube import Data
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
