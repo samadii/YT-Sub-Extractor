@@ -12,7 +12,7 @@ URLL = ''
 def extract_video_id(url):
     global URLL
     yt = Data(f"{url}")
-    URLL = yt.title
+    URLL = yt.title()
     query = urlparse(url)
     if query.hostname == 'youtu.be': return query.path[1:]
     if query.hostname in ('www.youtube.com', 'youtube.com'):
