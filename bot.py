@@ -38,7 +38,7 @@ def entry_dialog(update, context):
     global URL, LINK, VIDEO_ID, LANGS, LAN_CODES, STATE_LANG, conv_handler
     LINK = update.message.text
     yt = Data(f"{update.message.text}")
-    URL = yt.title
+    URL = yt.title()
     VIDEO_ID = extract_video_id(update.message.text)
     LANGS, LAN_CODES = get_available_lang(VIDEO_ID)
     if not LANGS:
